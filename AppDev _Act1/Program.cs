@@ -10,14 +10,14 @@ namespace AppDev_Act1
     {
         static void Main(string[] args)
         {
-            double x;
-            double y;
+            int x;
+            int y;
 
             Console.Write("Enter first number: ");
-            x = Convert.ToDouble(Console.ReadLine());
+            x = Convert.ToInt32(Console.ReadLine());
 
             Console.Write("Enter second number: ");
-            y = Convert.ToDouble(Console.ReadLine());
+            y = Convert.ToInt32(Console.ReadLine());
 
             string operation;
 
